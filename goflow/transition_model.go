@@ -1,0 +1,32 @@
+package goflow
+
+import "fmt"
+
+//XML变迁节点元素
+type TransitionModel struct {
+	BaseModel
+	Source  INodeModel `xml:"-"`         //变迁的源节点引用
+	Target  INodeModel `xml:"-"`         //变迁的目标节点引用
+	To      string     `xml:"to,attr"`   //变迁的目的节点
+	Expr    string     `xml:"expr,attr"` //变迁的条件表达式，用于decision
+	Enabled bool       `xml:"-"`         //当前变迁路径是否可用
+}
+
+//执行
+func (p *TransitionModel) Execute(execution *Execution) {
+	fmt.Println("TransitionModel 执行")
+	// TODO 在此执行一个循环....
+	if p.Enabled {
+		switch p.Target.(type) {
+		case *TaskModel: // 恩物节点
+			taskModel := p.Target.(*TaskModel)
+			tasks := CreateTaskHandle(taskModel, execution)
+			AutoExecuteTask(taskModel, execution, tasks)
+		case *SubProcessModel: // 流程model
+			subProcessModel := p.Target.(*SubProcessModel)
+			StartSubProcessHandle(subProcessModel, execution)
+		default:
+			p.Target.Execute(execution)
+		}
+	}
+}

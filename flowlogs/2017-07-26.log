@@ -1,0 +1,41 @@
+2017/07/26 08:43:25 [Error] util.go:37 error to read xml file open res/simple.xml: no such file or directory
+2017/07/26 08:46:06 [Error] util.go:37 error to read xml file open res/simple.xml: no such file or directory
+2017/07/26 08:47:27 [Error] util.go:37 error to read xml file open ./res/simple.xml: no such file or directory
+2017/07/26 12:41:12 [Info] access.go:28 user=%s password=%s host=%s port=%d dbname=%s sslmode=disable
+2017/07/26 12:41:12 [Info] access.go:32 user=postgres password=123456 host=localhost port=5432 dbname=postgres sslmode=disable
+2017/07/26 12:41:12 [Error] util.go:116 fail to init engine [ [] ]%!(EXTRA *errors.errorString=sql: unknown driver "postgres" (forgotten import?))
+2017/07/26 12:43:07 [Info] access.go:28 user=%s password=%s host=%s port=%d dbname=%s sslmode=disable
+2017/07/26 12:43:07 [Info] access.go:32 user=postgres password=123456 host=localhost port=5432 dbname=postgres sslmode=disable
+2017/07/26 12:43:08 [Info] access.go:58 *goflow.Process fa5ef91a-2b58-418a-900e-a9372089d1dd inserted
+2017/07/26 12:43:08 [Info] access.go:58 *goflow.Order d48ad182-a292-4834-a930-9262c4bb931c inserted
+2017/07/26 12:43:08 [Info] access.go:58 *goflow.HistoryOrder d48ad182-a292-4834-a930-9262c4bb931c inserted
+2017/07/26 12:43:08 [Info] access.go:58 *goflow.Task d63934d3-148d-40d0-aa27-9e4370853526 inserted
+2017/07/26 12:43:08 [Info] access.go:58 *goflow.TaskActor a41d12b5-4987-499c-8b47-651badfc33e4 inserted
+2017/07/26 13:05:15 [Info] access.go:28 user=%s password=%s host=%s port=%d dbname=%s sslmode=disable
+2017/07/26 13:05:16 [Info] access.go:32 user=postgres password=123456 host=localhost port=5432 dbname=postgres sslmode=disable
+2017/07/26 13:05:16 [Info] access.go:58 *goflow.Process 77165beb-ef52-41cd-a772-f5464936c9cb inserted
+2017/07/26 13:05:16 [Info] access.go:58 *goflow.Order 203a7b78-4e4c-4e54-9f98-fa5183c01565 inserted
+2017/07/26 13:05:16 [Info] access.go:58 *goflow.HistoryOrder 203a7b78-4e4c-4e54-9f98-fa5183c01565 inserted
+2017/07/26 13:05:16 [Info] access.go:58 *goflow.Task 64612fce-a6e8-4fa2-a4ba-1d2848a75ccf inserted
+2017/07/26 13:05:16 [Info] access.go:58 *goflow.TaskActor ec2f5411-ee5d-4356-b405-376083ca4ebf inserted
+2017/07/26 13:06:08 [Info] access.go:28 user=%s password=%s host=%s port=%d dbname=%s sslmode=disable
+2017/07/26 13:06:08 [Info] access.go:32 user=postgres password=123456 host=localhost port=5432 dbname=postgres sslmode=disable
+2017/07/26 13:06:09 [Info] access.go:58 *goflow.Process 5381105b-fec0-4144-aac6-1c5e440b22d4 inserted
+2017/07/26 13:06:09 [Info] access.go:58 *goflow.Order 2a028903-425c-4df0-b299-9a7be2bc2ce3 inserted
+2017/07/26 13:06:09 [Info] access.go:58 *goflow.HistoryOrder 2a028903-425c-4df0-b299-9a7be2bc2ce3 inserted
+2017/07/26 13:06:09 [Info] access.go:58 *goflow.Task 3ccc5a76-68cc-4edb-8f35-bf3142930cd7 inserted
+2017/07/26 13:06:09 [Info] access.go:58 *goflow.TaskActor f644c90f-fc5b-4ea1-b628-5a8887384d23 inserted
+2017/07/26 13:16:42 [Info] access.go:28 user=%s password=%s host=%s port=%d dbname=%s sslmode=disable
+2017/07/26 13:16:42 [Info] access.go:32 user=postgres password=123456 host=localhost port=5432 dbname=postgres sslmode=disable
+2017/07/26 13:16:43 [Info] access.go:58 *goflow.Process 64307922-00cd-4583-9435-effbc8b3c492 inserted
+2017/07/26 13:16:43 [Info] access.go:58 *goflow.Order 4ad5b55d-a263-4afc-b173-9b4556c2f8d7 inserted
+2017/07/26 13:16:43 [Info] access.go:58 *goflow.HistoryOrder 4ad5b55d-a263-4afc-b173-9b4556c2f8d7 inserted
+2017/07/26 13:16:43 [Info] access.go:58 *goflow.Task 57ecb6f7-9e23-47c1-85a7-b2a687b1a366 inserted
+2017/07/26 13:16:43 [Info] access.go:58 *goflow.TaskActor 5fd16224-c41c-4f3c-9d30-118d155a9f7c inserted
+2017/07/26 21:31:43 [Info] access.go:28 user=%s password=%s host=%s port=%d dbname=%s sslmode=disable
+2017/07/26 21:31:43 [Info] access.go:32 user=postgres password=123456 host=localhost port=5432 dbname=postgres sslmode=disable
+2017/07/26 21:31:44 [Info] access.go:58 *goflow.Process 703ec882-53aa-43de-98c6-3899c5518935 inserted
+2017/07/26 21:31:44 [Info] access.go:58 *goflow.Order cbb6b041-c412-447e-9cb2-7c06ab4c0c88 inserted
+2017/07/26 21:31:44 [Info] access.go:58 *goflow.HistoryOrder cbb6b041-c412-447e-9cb2-7c06ab4c0c88 inserted
+2017/07/26 21:31:44 [Info] access.go:58 *goflow.Task 814abd78-3ac6-4dc9-9ce9-d6a63020deb1 inserted
+2017/07/26 21:31:44 [Info] access.go:58 *goflow.TaskActor b24c7ea7-f4e2-45f9-9e90-3bdcd0b673bc inserted

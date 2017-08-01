@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process displayName="请假的流程" name="simple">
+    <start displayName="start1" name="start1">
+        <transition name="transition1" to="task1"/>
+    </start>
+    <end displayName="end1" name="end1"/>
+    <task assignee="task1.operator" displayName="task1" name="task1" performType="ANY" taskType="MAJOR">
+        <transition name="transition2" to="task2"/>
+    </task>
+    <task assignee="task2.operator" displayName="task2" name="task2" performType="ANY" taskType="MAJOR">
+        <transition name="transition3" to="task3"/>
+    </task>
+
+    <task assignee="task3.operator" displayName="task3" name="task3" performType="ANY" taskType="MAJOR">
+        <transition name="transition4" to="task4"/>
+    </task>
+
+    <task assignee="task4.operator" displayName="task4" name="task4" performType="ANY" taskType="MAJOR">
+        <transition name="transition5" to="task5"/>
+    </task>
+
+    <task assignee="task5.operator" displayName="task5" name="task5" performType="ANY" taskType="MAJOR">
+        <transition name="transition6" to="decision1"/>
+    </task>
+    <decision displayName="decision1" name="decision1">
+        <transition displayName="to task7" expr="content == 200" name="toTask7" to="task7"/>
+        <transition displayName="to task6" expr="content &gt; 200" name="toTask6" to="task6"/>
+        <transition displayName="to task8" expr="content &lt; 200" name="toTask8" to="task8"/>
+    </decision>
+    <task assignee="task6.operator" displayName="task6" name="task6" performType="ANY" taskType="MAJOR">
+        <transition name="transition10" to="end1"/>
+    </task>
+    <task assignee="task7.operator" displayName="task7" name="task7" performType="ANY" taskType="MAJOR">
+        <transition name="transition11" to="end1"/>
+    </task>
+    <task assignee="task8.operator" displayName="task8" name="task8" performType="ANY" taskType="MAJOR">
+        <transition name="transition12" to="end1"/>
+    </task>
+</process>

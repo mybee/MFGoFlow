@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;工作流&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/GoPath/src/stathat.com" />
+      <root url="file://$USER_HOME$/GoPath/src/new_api" />
+      <root url="file://$USER_HOME$/GoPath/src/doc" />
+      <root url="file://$USER_HOME$/GoPath/src/git.apache.org" />
+      <root url="file://$USER_HOME$/GoPath/src/labix.org" />
+      <root url="file://$USER_HOME$/GoPath/src/goaDemo" />
+      <root url="file://$USER_HOME$/GoPath/src/launchpad.net" />
+      <root url="file://$USER_HOME$/GoPath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/GoPath/src/odbc" />
+      <root url="file://$USER_HOME$/GoPath/src/github.com" />
+      <root url="file://$USER_HOME$/GoPath/src/golang.org" />
+      <root url="file://$USER_HOME$/GoPath/src/google.golang.org" />
+      <root url="file://$USER_HOME$/GoPath/src/mafeng" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/GoPath/src/stathat.com" />
+      <root url="file://$USER_HOME$/GoPath/src/new_api" />
+      <root url="file://$USER_HOME$/GoPath/src/doc" />
+      <root url="file://$USER_HOME$/GoPath/src/git.apache.org" />
+      <root url="file://$USER_HOME$/GoPath/src/labix.org" />
+      <root url="file://$USER_HOME$/GoPath/src/goaDemo" />
+      <root url="file://$USER_HOME$/GoPath/src/launchpad.net" />
+      <root url="file://$USER_HOME$/GoPath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/GoPath/src/odbc" />
+      <root url="file://$USER_HOME$/GoPath/src/github.com" />
+      <root url="file://$USER_HOME$/GoPath/src/golang.org" />
+      <root url="file://$USER_HOME$/GoPath/src/google.golang.org" />
+      <root url="file://$USER_HOME$/GoPath/src/mafeng" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
