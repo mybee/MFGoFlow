@@ -1,8 +1,8 @@
 # MFGoFlow
 马氏工作流
 
-![image](https://github.com/mybee/MFGoFlow/img/Snip20170716_42.png)
-![image](https://github.com/mybee/MFGoFlow/img/Snip20170716_42.png)
+![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip20170716_42.png)
+![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip20170716_42.png)
 
 ```var engine *Engine
 var order *Order
