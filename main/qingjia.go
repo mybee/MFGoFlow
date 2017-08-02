@@ -49,7 +49,7 @@ func exe(w http.ResponseWriter, req *http.Request) {
 		return
 	}
 	tasks := GetActiveTasksByOrderId(order.Id)
-	if len(tasks) > 0 {
+	if len(tasks) < 1 {
 		w.Write([]byte("任务已经完成"))
 	}
 	args := map[string]interface{}{
