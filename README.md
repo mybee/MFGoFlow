@@ -1,6 +1,6 @@
 # MFGoFlow
 
- ![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip2.png)
+ ![workflow](https://github.com/mybee/MFGoFlow/tree/master/img/Snip2.png)
 
  马氏工作流
 
@@ -70,4 +70,4 @@ func main()  {
 
 }
 ```
- ![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip20170802_13.png)
+ ![qingjia](https://github.com/mybee/MFGoFlow/tree/master/img/Snip20170802_13.png)
