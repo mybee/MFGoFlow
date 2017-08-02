@@ -2,7 +2,7 @@
 马氏工作流
 
 ![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip2.png)
-![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip20170802_13.png)
+
 
 ```var engine *Engine
 var order *Order
@@ -69,3 +69,5 @@ func main()  {
 	}
 
 }
+```
+![image](https://github.com/mybee/MFGoFlow/tree/master/img/Snip20170802_13.png)
